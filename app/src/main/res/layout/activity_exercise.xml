@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/exercise___animals"
+    tools:context=".Exercise">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="359dp"
+        android:layout_height="62dp"
+        android:background="@drawable/custom_button"
+        android:elevation="4dp"
+        android:fontFamily="@font/fredoka_one"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="Check"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="327dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="16px"
+        android:layout_marginVertical="16px"
+        android:alpha="0.5"
+        android:background="#080E1E0D"
+        android:fontFamily="@font/fredoka_one"
+        android:inputType="text"
+        android:paddingLeft="20px"
+        android:paddingTop="16px"
+        android:paddingRight="20px"
+        android:paddingBottom="16px"
+        android:textColor="#66080E1E"
+        android:textColorHint="#656872"
+        android:textCursorDrawable="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="166dp"
+        android:layout_height="31dp"
+
+        android:fontFamily="@font/fredoka_one"
+        android:letterSpacing="0.03"
+        android:text="Write who is on image"
+        android:textAlignment="center"
+        android:textColor="#080E1E"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <TextView
+        android:layout_width="207dp"
+        android:layout_height="52dp"
+        android:layout_margin="0px"
+        android:fontFamily="@font/fredoka_one"
+        android:fontVariationSettings="@null"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="0dp"
+        android:text="Guess the animal"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="357dp"
+        android:layout_height="351dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231"
+        app:srcCompat="@drawable/pay_main_1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
